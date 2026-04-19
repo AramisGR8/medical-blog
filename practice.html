@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Practice Flashcards</title>
+
+<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script src="flashcards.js" defer></script>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header>
+
+<h1>Bleeding Study</h1>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="learn.html">Learn</a>
+<a href="practice.html">Practice</a>
+</nav>
+
+</header>
+
+<div class="container">
+
+<h2 style="text-align:center">Flashcard Practice</h2>
+
+<!-- PREMADE CARDS -->
+<div class="flashcard-grid" id="flashcardGrid"></div>
+
+
+
+<!-- CUSTOM CARDS -->
+<h2 style="text-align:center">Create Your Own Flashcards</h2>
+
+<div class="flashcard-grid" id="customCardGrid"></div>
+
+<div style="text-align:center; margin-top:80px; margin-bottom:80px;">
+
+<button class="btn" onclick="nextCards()">Random Cards</button>
+
+<button class="btn" onclick="createNewCard()" style="margin-left:20px;">
+New Cards
+</button>
+
+</div>
+
+</div>
+
+<footer>
+
+Study Tool for Medical Students
+
+</footer>
+
+</body>
+</html>
