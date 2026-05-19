@@ -11,25 +11,42 @@
 
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script src="menu.js" defer></script>
+
 </head>
 
 <body>
 
 <header>
 
-<h1>Bleeding Study</h1>
+<h1>Seedetrakti verejooksud</h1>
 
 <nav>
-<a href="index.html">Home</a>
-<a href="learn.html">Learn</a>
-<a href="practice.html">Practice</a>
-</nav>
+    <a href="index.html">Avaleht</a>
+
+    <div class="nav-dropdown">
+   <a class="nav-trigger">Seedetrakti verejooksud ▾</a>
+  <div class="dropdown-panel">
+  <div class="dropdown-col">
+
+    <a href="ulemine seedetrakt.html" class="section-btn">Ülemine seedetrakt</a>
+
+    <a href="alumine seedetrakt.html" class="section-btn">Alumine seedetrakt</a>
+
+  </div>
+</div>
+</div>
+
+    <a href="practice.html">Harjuta</a>
+  </nav>
 
 </header>
 
 <div class="container">
 
-<h2 style="text-align:center">Flashcard Practice</h2>
+<h2 style="text-align:center; margin-top:150px;">Flashcard Practice</h2>
 
 <!-- PREMADE CARDS -->
 <div class="flashcard-grid" id="flashcardGrid"></div>
